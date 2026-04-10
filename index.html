@@ -1,80 +1,83 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food's of Rod & Andy</title>
-    <link rel="stylesheet" href="styleOne.css">
-</head>
-<body class="page">
-    <header class="header">
-        <div class="header__container">
-            <h1 class="header__title">olaGeis 🍔</h1>
-            <p class="header__subtitle">
-                Página para criticar comida, creada por Rodrigo, Epsilon y Andrea
-            </p>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#" class="nav__link">Inicio</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Restaurantes</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Platos</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Recomendaciones</a></li>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food's of RodAndyEps</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styleOne.css">
+    </head>
+    <body class="page">
+        <header class="header">
+            <div class="header__container">
+                <h1 class="Title">Food's of RodAndyEps 🍔</h1>
+                <p class="header__subtitle">
+                    Página para criticar comida, creada por Rodrigo, Epsilon y Andrea
+                </p>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Inicio</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Restaurantes</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Platos</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Recomendaciones</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <!-- SECCIÓN RESTAURANTES -->
+            <section class="section section--restaurants" id="restaurantes">
+                <h2 class="section__title">Restaurantes</h2>
+
+                <article class="card card--restaurant">
+                    <h3 class="card__title">Nombre del restaurante</h3>
+                    <p class="card__description">Breve reseña del lugar...</p>
+                </article>
+                <!-- Puedes duplicar este artículo -->
+            </section>
+
+            <!-- SECCIÓN MEJORES PLATOS -->
+            <section class="section section--dishes" id="platos">
+                <h2 class="section__title">Mejores platos</h2>
+
+                <article class="card card--dish">
+                    <h3 class="card__title">Nombre del plato</h3>
+                    <p class="card__description">Descripción del plato...</p>
+                    <div class="card__price">$00.00</div>
+                </article>
+            </section>
+
+            <!-- SECCIÓN RECOMENDACIONES -->
+            <section class="section section--recommendations" id="recomendaciones">
+                <h2 class="section__title">Recomendaciones</h2>
+                <article class="card card--recommendation">
+                    <h3 class="card__title">Mejores resuta de todo (insertar zona)</h3>
+                    <p class="card__description">Qué pedir y por qué...</p>
+                </article>
+            </section>
+
+            <!-- IDEAS EXTRA -->
+            <section class="section section--ideas">
+                <h2 class="section__title">Ideas para agregar después</h2>
+                <ul class="ideas__list">
+                    <li class="ideas__item">Sistema de calificación con estrellas</li>
+                    <li class="ideas__item">Comentarios de usuarios</li>
+                    <li class="ideas__item">Fotos de comida</li>
+                    <li class="ideas__item">Filtros por tipo de comida</li>
+                    <li class="ideas__item">Top semanal 🔥</li>
                 </ul>
-            </nav>
-        </div>
-    </header>
+            </section>
+        </main>
 
-    <main class="main">
+        <footer class="footer">
+            <div class="footer__container">
+                <p class="footer__text">© 2026 Food's of Rod & Andy</p>
+            </div>
+        </footer>
 
-        <!-- SECCIÓN RESTAURANTES -->
-        <section class="section section--restaurants" id="restaurantes">
-            <h2 class="section__title">Restaurantes</h2>
-
-            <article class="card card--restaurant">
-                <h3 class="card__title">Nombre del restaurante</h3>
-                <p class="card__description">Breve reseña del lugar...</p>
-            </article>
-            <!-- Puedes duplicar este artículo -->
-        </section>
-
-        <!-- SECCIÓN MEJORES PLATOS -->
-        <section class="section section--dishes" id="platos">
-            <h2 class="section__title">Mejores platos</h2>
-
-            <article class="card card--dish">
-                <h3 class="card__title">Nombre del plato</h3>
-                <p class="card__description">Descripción del plato...</p>
-                <div class="card__price">$00.00</div>
-            </article>
-        </section>
-
-        <!-- SECCIÓN RECOMENDACIONES -->
-        <section class="section section--recommendations" id="recomendaciones">
-            <h2 class="section__title">Recomendaciones</h2>
-            <article class="card card--recommendation">
-                <h3 class="card__title">Mejores resuta de todo (insertar zona)</h3>
-                <p class="card__description">Qué pedir y por qué...</p>
-            </article>
-        </section>
-
-        <!-- IDEAS EXTRA -->
-        <section class="section section--ideas">
-            <h2 class="section__title">Ideas para agregar después</h2>
-            <ul class="ideas__list">
-                <li class="ideas__item">Sistema de calificación con estrellas</li>
-                <li class="ideas__item">Comentarios de usuarios</li>
-                <li class="ideas__item">Fotos de comida</li>
-                <li class="ideas__item">Filtros por tipo de comida</li>
-                <li class="ideas__item">Top semanal 🔥</li>
-            </ul>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="footer__container">
-            <p class="footer__text">© 2026 Food's of Rod & Andy</p>
-        </div>
-    </footer>
-
-</body>
+    </body>
 </html>
