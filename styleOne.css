@@ -3,7 +3,8 @@
     --GrayOne:#005C53;
     --GreenOne: #9FC131;
     --GreenTwo:#DBF227;
-    --GrenTwo:#D6D58E;
+    --GreenThree:#D6D58E;
+    --GreenFour: #efeecd;
 }
 
 
@@ -24,4 +25,73 @@ body{
     color:var(--BlueOne);
     font-weight: 400;
     font-style: normal;
+}
+
+.section--dishes {
+    padding: 2rem;
+}
+
+.section__title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* CONTENEDOR */
+.dishes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+/* CARD */
+.dish {
+    background:var(--GreenFour);
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 10px 25px rgba(20, 21, 20, 0.134);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.dish:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+
+/* IMAGEN */
+.dish img {
+    width: 50%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+/* TEXTOS */
+.dish h3 {
+    margin: 0.5rem 0;
+}
+
+.dish h4 {
+    margin: 0.5rem 0;
+    color: #777;
+    font-weight: normal;
+}
+
+.dish p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .dishes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .dishes {
+        grid-template-columns: 1fr;
+    }
 }
