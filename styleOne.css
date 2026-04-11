@@ -19,14 +19,6 @@ body{
     padding: 0;
 }
 
-.Title{
-    text-align: center;
-    font-size: 3.8rem;
-    color:var(--BlueOne);
-    font-weight: 400;
-    font-style: normal;
-}
-
 .section--dishes {
     padding: 2rem;
 }
